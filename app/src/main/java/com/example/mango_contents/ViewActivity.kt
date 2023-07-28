@@ -21,10 +21,6 @@ class ViewActivity : AppCompatActivity() {
         auth = Firebase.auth
 
 
-
-
-
-
         val webView=findViewById<WebView>(R.id.webView)
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
